@@ -1,0 +1,27 @@
+{
+  "name": "LIRI-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmitka/LIRI-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmitka/LIRI-bot/issues"
+  },
+  "homepage": "https://github.com/tmitka/LIRI-bot#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "moment": "^2.24.0"
+
+  }
+}

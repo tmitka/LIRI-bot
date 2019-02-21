@@ -10,22 +10,22 @@ var moment = require("moment");
 process.argv[3] = process.argv.splice(3).join(" ");
 console.log(process.argv[3]);
 //Create a function to handle the different user statements, handle this as a switch statement (write the functions after)
-function getUserCommand(commandType, commandValue) {
-    switch (commandType) {
+function getUserCommand(command, value) {
+    switch (command) {
         case "concert-this":
-            getConcert(commandValue);
+            getConcert(value);
             break;
 
         case "spotify-this-song":
-            getSong(commandValue);
+            getSong(value);
             break;
 
         case "movie-this":
-            getMovie(commandValue);
+            getMovie(value);
             break;
 
         case "do-what-it-says":
-            getLog(commandType, commandValue);
+            getLog(command, value);
             break;
 
         default:
